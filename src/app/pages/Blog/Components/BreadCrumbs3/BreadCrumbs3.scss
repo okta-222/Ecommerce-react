@@ -1,0 +1,27 @@
+.Breadcrumbs3 {
+  background-color: #f6f6f6;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+  .container {
+    .text-Breadcrumbs3 {
+      h2 {
+        font-size: 25px;
+        font-weight: normal;
+      }
+      .info-Breadcrumbs3 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        h4 {
+          font-size: 14px;
+          color: var(--text-color);
+        }
+        i {
+          color: var(--text-color);
+        }
+      }
+    }
+  }
+}
